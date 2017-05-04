@@ -1,0 +1,6 @@
+framework module Pods_forex_watch {
+  umbrella header "Pods-forex_watch-umbrella.h"
+
+  export *
+  module * { export * }
+}
