@@ -422,7 +422,7 @@
 				DEVELOPMENT_TEAM = 6GL7M4UJ5K;
 				INFOPLIST_FILE = forex_watch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.forex-watch";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.experiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,7 +435,7 @@
 				DEVELOPMENT_TEAM = 6GL7M4UJ5K;
 				INFOPLIST_FILE = forex_watch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.forex-watch";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.experiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
