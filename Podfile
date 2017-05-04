@@ -6,6 +6,7 @@ target 'forex_watch' do
   use_frameworks!
 
   # Pods for forex_watch
+  pod 'Alamofire', '~> 4.4'
 
   target 'forex_watchTests' do
     inherit! :search_paths
