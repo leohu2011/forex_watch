@@ -16,6 +16,7 @@
 		0724B90A1EBB476900F222E7 /* forex_watchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0724B9091EBB476900F222E7 /* forex_watchTests.swift */; };
 		0724B9151EBB476900F222E7 /* forex_watchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0724B9141EBB476900F222E7 /* forex_watchUITests.swift */; };
 		8A6C63CDC709A9ACB04D9827 /* Pods_forex_watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45727F75A06FD11BD7A4734A /* Pods_forex_watch.framework */; };
+		8B692B2B1EBDF66800B1643A /* rootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B692B2A1EBDF66800B1643A /* rootViewController.swift */; };
 		CBBE7749E5620CA074A6DF32 /* Pods_forex_watchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C947CB67B189C418050D533D /* Pods_forex_watchUITests.framework */; };
 		DBB56927EBDF8306B0F87CE2 /* Pods_forex_watchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAC898644CE66D7D719DC18 /* Pods_forex_watchTests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		0724B9161EBB476900F222E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09F8FBB83803CADCA0B93ED8 /* Pods-forex_watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forex_watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-forex_watch/Pods-forex_watch.debug.xcconfig"; sourceTree = "<group>"; };
 		45727F75A06FD11BD7A4734A /* Pods_forex_watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forex_watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B692B2A1EBDF66800B1643A /* rootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rootViewController.swift; sourceTree = "<group>"; };
 		9EAC898644CE66D7D719DC18 /* Pods_forex_watchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forex_watchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82E1E7691D6D9FD8867FACB /* Pods-forex_watchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forex_watchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-forex_watchUITests/Pods-forex_watchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C947CB67B189C418050D533D /* Pods_forex_watchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forex_watchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 			children = (
 				0724B8F11EBB476900F222E7 /* AppDelegate.swift */,
 				0724B8F31EBB476900F222E7 /* ViewController.swift */,
+				8B692B2A1EBDF66800B1643A /* rootViewController.swift */,
 				0724B8F51EBB476900F222E7 /* Main.storyboard */,
 				0724B8FB1EBB476900F222E7 /* Assets.xcassets */,
 				0724B8FD1EBB476900F222E7 /* LaunchScreen.storyboard */,
@@ -454,6 +457,7 @@
 			files = (
 				0724B8F41EBB476900F222E7 /* ViewController.swift in Sources */,
 				0724B8FA1EBB476900F222E7 /* forex_watch.xcdatamodeld in Sources */,
+				8B692B2B1EBDF66800B1643A /* rootViewController.swift in Sources */,
 				0724B8F21EBB476900F222E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -711,6 +715,7 @@
 				0724B91B1EBB476900F222E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0724B91C1EBB476900F222E7 /* Build configuration list for PBXNativeTarget "forex_watchTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +724,7 @@
 				0724B91E1EBB476900F222E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0724B91F1EBB476900F222E7 /* Build configuration list for PBXNativeTarget "forex_watchUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +733,7 @@
 				0724B9211EBB476900F222E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
