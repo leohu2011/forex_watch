@@ -9,16 +9,25 @@
 import UIKit
 import CoreData
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var navController: UINavigationController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         //custom rootViewController entry point
+        navController = UINavigationController()
+        let appController:rootViewController = rootViewController()
+        self.navController!.pushViewController(appController, animated: true)
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navController
+        window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
         return true
     }
 

@@ -8,12 +8,17 @@
 
 import UIKit
 
-class rootViewController: UIViewController {
+class rootViewController: UIViewController, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        print("root view controller initiated!")
+        
+        self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.topItem?.title = "Something Else"
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
