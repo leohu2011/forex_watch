@@ -18,7 +18,7 @@ class rootViewController: UIViewController, UINavigationControllerDelegate {
         self.navigationController?.navigationBar.isHidden = false
         self.navigationController?.navigationBar.topItem?.title = "Something Else"
         
-        
+        self.navigationController?.navigationBar.setBackgroundImage( UIImage(named: "timg.png"), for: UIBarMetrics.default)
     }
 
     override func didReceiveMemoryWarning() {
