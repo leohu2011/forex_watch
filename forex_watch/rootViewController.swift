@@ -18,7 +18,14 @@ class rootViewController: UIViewController, UINavigationControllerDelegate {
         self.navigationController?.navigationBar.isHidden = false
         self.navigationController?.navigationBar.topItem?.title = "Something Else"
         
-        self.navigationController?.navigationBar.setBackgroundImage( UIImage(named: "timg.png"), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "timg.png"), for: UIBarMetrics.default)
+        
+        self.tabBarController?.tabBar.isHidden = false
+        self.tabBarController?.tabBar.backgroundColor = UIColor.black
+        
+        let trendFrame = CGRect.init(origin: self.view.frame.origin, size: CGSize.init(width: self.view.frame.width, height: self.view.frame.height/3))
+        let trend = trendView.init(frame: trendFrame)
+        self.view.addSubview(trend)
     }
 
     override func didReceiveMemoryWarning() {

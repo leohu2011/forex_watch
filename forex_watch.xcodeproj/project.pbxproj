@@ -17,6 +17,7 @@
 		8A6C63CDC709A9ACB04D9827 /* Pods_forex_watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45727F75A06FD11BD7A4734A /* Pods_forex_watch.framework */; };
 		8B692B2B1EBDF66800B1643A /* rootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B692B2A1EBDF66800B1643A /* rootViewController.swift */; };
 		8B76A64F1EC49E7E004539D6 /* timg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B76A64E1EC49E7E004539D6 /* timg.png */; };
+		8BC1FCFA1EC6B301000A3D58 /* trendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1FCF91EC6B301000A3D58 /* trendView.swift */; };
 		CBBE7749E5620CA074A6DF32 /* Pods_forex_watchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C947CB67B189C418050D533D /* Pods_forex_watchUITests.framework */; };
 		DBB56927EBDF8306B0F87CE2 /* Pods_forex_watchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAC898644CE66D7D719DC18 /* Pods_forex_watchTests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		45727F75A06FD11BD7A4734A /* Pods_forex_watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forex_watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B692B2A1EBDF66800B1643A /* rootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rootViewController.swift; sourceTree = "<group>"; };
 		8B76A64E1EC49E7E004539D6 /* timg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timg.png; sourceTree = "<group>"; };
+		8BC1FCF91EC6B301000A3D58 /* trendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trendView.swift; sourceTree = "<group>"; };
 		9EAC898644CE66D7D719DC18 /* Pods_forex_watchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forex_watchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82E1E7691D6D9FD8867FACB /* Pods-forex_watchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forex_watchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-forex_watchUITests/Pods-forex_watchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C947CB67B189C418050D533D /* Pods_forex_watchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forex_watchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 				0724B8F11EBB476900F222E7 /* AppDelegate.swift */,
 				0724B8F31EBB476900F222E7 /* ViewController.swift */,
 				8B692B2A1EBDF66800B1643A /* rootViewController.swift */,
+				8BC1FCF91EC6B301000A3D58 /* trendView.swift */,
 				0724B8FB1EBB476900F222E7 /* Assets.xcassets */,
 				0724B8FD1EBB476900F222E7 /* LaunchScreen.storyboard */,
 				0724B9001EBB476900F222E7 /* Info.plist */,
@@ -463,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC1FCFA1EC6B301000A3D58 /* trendView.swift in Sources */,
 				0724B8F41EBB476900F222E7 /* ViewController.swift in Sources */,
 				0724B8FA1EBB476900F222E7 /* forex_watch.xcdatamodeld in Sources */,
 				8B692B2B1EBDF66800B1643A /* rootViewController.swift in Sources */,
